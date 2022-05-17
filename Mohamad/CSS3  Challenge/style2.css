@@ -1,0 +1,89 @@
+/* that is Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(24, 20, 20);
+    color: white;
+}
+
+.search {
+    width: 400px;
+    height: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(49, 43, 43);
+}
+
+
+/* that top the body */
+
+button {
+    background-color: rgb(49, 43, 43);
+    color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(49, 43, 43);
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+
+/* body  */
+
+.top-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+
+/* list in the body */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+
+/* for the stars */
+
+.checked {
+    color: rgb(238, 255, 0);
+}
