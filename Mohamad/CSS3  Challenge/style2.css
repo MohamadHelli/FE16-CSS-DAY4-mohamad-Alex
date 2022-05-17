@@ -1,5 +1,9 @@
 /* that is Header */
 
+* {
+    margin: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
